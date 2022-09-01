@@ -31,7 +31,7 @@ import SwiftUI
 public struct NativeCursorBody: View {
     public var body: some View {
         Capsule()
-            .foregroundColor(.red)
+            .foregroundColor(Color(.sRGB, red: 149/255.0, green: 210/255.0, blue: 185/255.0, opacity: 1))
             .frame(width: UIScreen.main.scale == 3 ? 1.8 : 2, height: 30)
     }
 }
