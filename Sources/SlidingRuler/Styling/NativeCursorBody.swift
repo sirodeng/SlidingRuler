@@ -31,8 +31,7 @@ import SwiftUI
 public struct NativeCursorBody: View {
     public var body: some View {
         Capsule()
-            .stroke(Color(.sRGB, red: 149/255.0, green: 210/255.0, blue: 185/255.0, opacity: 1))
-            .fill(Color(.sRGB, red: 149/255.0, green: 210/255.0, blue: 185/255.0, opacity: 1))
+            .fontWeight(Font.Weight.bold)
             .foregroundColor(Color(.sRGB, red: 149/255.0, green: 210/255.0, blue: 185/255.0, opacity: 1))
             .frame(width: UIScreen.main.scale == 3 ? 2.8 : 3, height: 30)
     }
